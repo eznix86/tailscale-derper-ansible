@@ -53,6 +53,17 @@ systemctl status derper
 journalctl -u derper
 ```
 
+## Basic sysadmin stuff
+
+```bash
+# look ips which are blocked
+fail2ban-client status sshd
+# firewall status
+ufw status
+# blocked list from https://github.com/stamparm/ipsum
+ipset list
+```
+
 Verify if your DERP is accessible:
 
 ```bash
